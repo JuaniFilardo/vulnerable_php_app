@@ -15,7 +15,7 @@
                 <div id="login">
                     <h1>Bienvenido</h1>
 
-                    <form action="src/ctrl/index.ctrl.php" method="post">
+                    <form action="<? echo $WEB_PATH; ?>src/ctrl/index.ctrl.php" method="post">
                     <div class="field-wrap">
                         <input type="text" name="username" required autocomplete="off" placeholder="Usuario"/>
                     </div>
